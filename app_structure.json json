@@ -1,0 +1,24 @@
+{
+  "app_name": "Career Navigator",
+  "purpose": "Help a woman returning after a career break choose a job, plan learning, and build a small project.",
+  "user_inputs": {
+    "past_experience": "text",
+    "skills": "text",
+    "target_job": "text",
+    "weekly_hours": "number",
+    "budget": "text",
+    "constraints": "text"
+  },
+  "app_outputs": {
+    "target_roles": "list of 2–3 job ideas",
+    "skill_gap": {
+      "have": "list of skills",
+      "refresh": "list of skills",
+      "learn": "list of skills"
+    },
+    "learning_plan": "30–60–90 day plan",
+    "weekly_schedule": "simple weekly plan",
+    "portfolio_project": "small project description",
+    "next_action": "one task under 30 minutes"
+  }
+}
