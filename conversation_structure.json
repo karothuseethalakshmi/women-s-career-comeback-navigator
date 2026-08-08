@@ -1,0 +1,53 @@
+{
+  "conversation": [
+    {
+      "step": 1,
+      "type": "ask",
+      "field": "past_experience",
+      "question": "Tell me about your past work (roles, industries, main tasks)."
+    },
+    {
+      "step": 2,
+      "type": "ask",
+      "field": "skills",
+      "question": "List your main skills (tools, tech, soft skills)."
+    },
+    {
+      "step": 3,
+      "type": "ask",
+      "field": "target_job",
+      "question": "What job do you want now? (role, industry, remote/hybrid/onsite, part-time/full-time)"
+    },
+    {
+      "step": 4,
+      "type": "ask",
+      "fields": ["weekly_hours", "budget", "constraints"],
+      "question": "How many hours per week can you study? What is your budget? Any other constraints?"
+    },
+    {
+      "step": 5,
+      "type": "show",
+      "output": "target_roles"
+    },
+    {
+      "step": 6,
+      "type": "show",
+      "output": "skill_gap"
+    },
+    {
+      "step": 7,
+      "type": "show",
+      "output": "learning_plan"
+    },
+    {
+      "step": 8,
+      "type": "show",
+      "output": "weekly_schedule"
+    },
+    {
+      "step": 9,
+      "type": "show",
+      "output": ["portfolio_project", "next_action"]
+    }
+  ]
+}
