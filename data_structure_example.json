@@ -1,0 +1,26 @@
+{
+  "example_user": {
+    "past_experience": "3 years as operations coordinator in a startup.",
+    "skills": ["Excel", "Communication", "Coordination"],
+    "target_job": "Customer Support or Operations role, remote or hybrid.",
+    "weekly_hours": 10,
+    "budget": "$0–$50 per month",
+    "constraints": "Childcare in evenings, only laptop, no quiet room sometimes."
+  },
+  "example_output": {
+    "target_roles": [
+      "Customer Support Associate",
+      "Operations Coordinator",
+      "Client Success Assistant"
+    ],
+    "skill_gap": {
+      "have": ["Communication", "Coordination"],
+      "refresh": ["Excel"],
+      "learn": ["CRM basics", "Customer metrics"]
+    },
+    "learning_plan": "30 days: refresh Excel + learn CRM; 60 days: metrics + small dashboard; 90 days: resume + applications + interviews.",
+    "weekly_schedule": "Mon/Wed/Fri: 1–1.5h learning; Tue/Thu: 1h practice; Sat: 2–3h project; Sun: 1h review.",
+    "portfolio_project": "1-page customer health summary + simple churn/NPS dashboard with mock data.",
+    "next_action": "List your last 2 roles and 3 tasks you did in each (20 minutes)."
+  }
+}
